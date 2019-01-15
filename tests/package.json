@@ -1,0 +1,22 @@
+{
+  "name": "scalc-core-test",
+  "version": "1.0.0",
+  "description": "Testing scalc-core library",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register **/*.spec.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@scalc/core": "^0.1.7",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "ts-node": "^7.0.1",
+    "@types/mocha": "^5.2.5",
+    "typescript": "^3.2.2"
+  }
+}

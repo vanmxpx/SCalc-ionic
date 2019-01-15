@@ -1,0 +1,27 @@
+{
+    "exclude": [
+        "node_modules"
+    ],
+    "compilerOptions": {
+        /* Basic Options */
+        "target": "es5",
+        "module": "commonjs",
+        "lib": [
+            "es2017",
+            "dom"
+        ],
+        // "sourceMap": true,        /* Generates corresponding '.map' file. */
+        "outDir": "./dist",                        /* Redirect output structure to the directory. */
+        "strict": true,
+        "noImplicitAny": true,                 /* Raise error on expressions and declarations with an implied 'any' type. */
+        "strictNullChecks": true,
+        "noImplicitThis": true,                /* Raise error on 'this' expressions with an implied 'any' type. */
+
+        "experimentalDecorators": true, /* Enables experimental support for ES7 decorators. */
+        "emitDecoratorMetadata": true, /* Enables experimental support for emitting type metadata for decorators. */
+
+    },
+    "include": [
+        "**/*.ts"
+    ]
+}
